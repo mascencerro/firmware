@@ -1,0 +1,8 @@
+Manufacturer:	Merkury Innovations
+Model:		MI-BW944-999W
+Device:		EBE-BAW419-C LED Lamp
+FCC ID:		2AJ3WEBEBAW419
+Chipset: 	WB2L (BK7231T)
+Firmware:	oem_bk7231s_light_ty
+Version:	2.9.16
+Firmware Date:	Apr 22 2021 19:25:54

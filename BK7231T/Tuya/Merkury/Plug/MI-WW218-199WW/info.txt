@@ -1,0 +1,14 @@
+Manufacturer:	Merkury Innovations
+Model:		MI-WW218-199WW
+Device:		Smart Wi-Fi Plug
+FCC ID:		2AJ3WEBECZW03
+Chipset: 	WB2L (BK7231T)
+
+Firmware:	oem_bk7231s_rnd_switch
+Version:	1.0.8
+Firmware Date:	Aug 29 2020 13:34:28
+
+pConfig:	pConfig = {rl1_lv:1,netled_lv:0,bt_type:0,bt1_pin:6,rand_dpid:43,net_trig:1,led_dp:40,jv:1.0.9,lock_dp:41,nety_led:2,}
+ssid name:	tuya_mdev_test1
+product_key:	cnuxoqemmanfo6ne
+input:		keya4gvchmtapm8n

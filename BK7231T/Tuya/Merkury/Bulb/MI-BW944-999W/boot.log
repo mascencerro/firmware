@@ -1,0 +1,116 @@
+V:BK7231S_1.0.5
+CPSR:000000D3
+R0:00000000
+R1:00DFFEFC
+R2:00802000
+R3:F1CCFFFF
+R4:00420208
+R13:0043F6A0
+R14(LR):0000BCBC
+ST:BEDEAD11
+J 0x10000
+prvHeapInit-start addr:0x420260, size:130464
+[01-01 18:12:15 TUYA Err][uf_flash_file_app.c:266] uf_open gamma_cfg err 8
+[01-01 18:12:15 TUYA Err][soc_flash.c:264] uf file can't open and read data!
+[01-01 18:12:15 TUYA Err][user_flash.c:194] gamma cfg data read error!
+[01-01 18:12:15 TUYA Err][device_config_load.c:497] user  gamma cfg read error!
+[01-01 18:12:15 TUYA Notice][device_config_load.c:552] read gamma cfg error start calc
+[01-01 18:12:15 TUYA Err][light_control.c:336] light way set error, max way is 5-way!
+[01-01 18:12:15 TUYA Err][light_init.c:266] Light control init error!
+[01-01 18:12:15 TUYA Err][light_init.c:311] Light hardware init error!
+[01-01 18:12:15 TUYA Notice][light_system.c:2331] Fast boot error!
+[01-01 18:12:15 TUYA Err][base_event.c:150] call entry->cb(data) return 992156
+[01-01 18:12:15 TUYA Err][base_event.c:312] call _event_node_dispatch(event, data) return 992156
+[01-01 18:12:15 TUYA Err][log_seq.c:709] log stats ufread fail, log status is empty
+[01-01 18:12:15 TUYA Err][tuya_ws_db.c:314] kvs_read fails gw_bi -1
+[01-01 18:12:15 TUYA Err][ws_db_gw.c:111] gw base read fails -935
+!!!!!!!!!!tuya_bt_port_init
+[01-01 18:12:15 TUYA Notice][tuya_bt_sdk.c:130] ty bt sdk init success finish
+[01-01 18:12:15 TUYA Notice][simple_flash.c:432] key_addr: 0x1ee000   block_sz 4096
+[01-01 18:12:15 TUYA Notice][simple_flash.c:500] get key:
+0xcb 0x4e 0x3e 0xa4 0x0 0x30 0x9d 0xab 0x65 0x6d 0x8d 0xbf 0xe4 0xb9 0x3f 0x35 
+[01-01 18:12:15 TUYA Notice][tuya_main.c:334] **********[oem_bk7231s_light_ty] [2.9.16] compiled at Apr 22 2021 19:25:54**********
+[bk]tx_txdesc_flush
+user define rfcali mode:1 
+
+rfcali_mode:1, 1
+ble use fit!
+temp in flash is:263
+xtal in flash is:21
+-----pwr_gain:12, g_idx:12, shift_b:0, shift_g:0
+-----[pwr_gain]12
+Initializing TCP/IP stack
+gapm_cmp_evt_handler operation = 0x1, status = 0x0 
+gapm_cmp_evt_handler operation = 0x3, status = 0x0 
+STACK INIT OK
+ble create new db
+ble_env->start_hdl = 0x7gapm_cmp_evt_handler operation = 0x1b, status = 0x0 
+CREATE DB SUCCESS
+!!!!!!!!!!tuya_bt_reset_adv
+[01-01 18:12:15 TUYA Notice][tuya_ble_api.c:398] ble adv && resp changed
+!!!!!!!!!!tuya_before_netcfg_cb
+appm start advertising
+[01-01 18:12:16 TUYA Notice][tuya_main.c:364] mf_init succ
+[01-01 18:12:16 TUYA Notice][light_system.c:2394] < TUYA IOT SDK V:1.0.8 BS:40.00_PT:2.2_LAN:3.3_CAD:1.0.2_CD:1.0.0 >
+< BUILD AT:2021_04_21_12_11_49 BY embed FOR ty_iot_wf_bt_sdk_bk AT bk7231t >
+IOT DEFS < WIFI_GW:1 DEBUG:1 KV_FILE:0 SHUTDOWN_MODE:0 LI[01-01 18:12:16 TUYA Notice][light_system.c:2395] oem_bk7231s_light_ty:2.9.16
+[01-01 18:12:16 TUYA Notice][soc_flash.c:177] save oem cfg into uf ok
+[01-01 18:12:16 TUYA Notice][light_system.c:2437] oem cfg move to uf file ok!
+[01-01 18:12:16 TUYA Notice][device_config_load.c:366] device config data already load! Don't load again!!
+[01-01 18:12:16 TUYA Notice][device_config_load.c:366] device config data already load! Don't load again!!
+[01-01 18:12:16 TUYA Err][light_control.c:336] light way set error, max way is 5-way!
+[01-01 18:12:16 TUYA Err][light_init.c:266] Light control init error!
+[01-01 18:12:16 TUYA Err][light_init.c:311] Light hardware init error!
+[01-01 18:12:16 TUYA Err][light_system.c:2446] Light init error again!
+[01-01 18:12:16 TUYA Notice][light_system.c:2251] frame goto init!
+[01-01 18:12:16 TUYA Notice][gw_intf.c:3671] serial_no:7cf66637e982
+[01-01 18:12:16 TUYA Notice][gw_intf.c:3706] gw_cntl.gw_wsm.stat:0
+[01-01 18:12:16 TUYA Notice][gw_intf.c:3709] gw_cntl.gw_wsm.nc_tp:1
+[01-01 18:12:16 TUYA Notice][gw_intf.c:3710] gw_cntl.gw_wsm.md:0
+[01-01 18:12:16 TUYA Notice][gw_intf.c:3754] gw_cntl.gw_if.abi:0 input:0
+[01-01 18:12:16 TUYA Notice][gw_intf.c:3755] gw_cntl.gw_if.product_key:keya4gvchmtapm8n, input:keytg5kq8gvkv9dh
+[01-01 18:12:16 TUYA Notice][gw_intf.c:3756] gw_cntl.gw_if.tp:0, input:0
+[01-01 18:12:16 TUYA Notice][gw_intf.c:3758] gw_cntl.gw_if.firmware_key:keya4gvchmtapm8n, input:keytg5kq8gvkv9dh
+[01-01 18:12:16 TUYA Err][gw_intf.c:3769] input firmware key is keytg5kq8gvkv9dh but local is keya4gvchmtapm8n. Reset Factory
+[01-01 18:12:16 TUYA Notice][tuya_bt_sdk.c:148] ty bt update product:keytg5kq8gvkv9dh 0
+[01-01 18:12:16 TUYA Notice][light_system.c:2260] frame init out!
+[01-01 18:12:16 TUYA Notice][light_system.c:2266] frame init ok!
+[bk]tx_txdesc_flush
+sizeof(wpa_supplicant)=2512
+oper_state: state 0, operstate 0
+enter low level!
+mac 7c:f6:66:37:e9:82
+leave low level!
+wpa_supplicant_scan 866
+no ht in scan
+scan_start_req_handler
+do td cur_t:274--last:idx:13,t:263 -- new:idx:14,t:275 
+--0xc:08, shift_b:0, shift_g:0, X:2
+oper_state: state 0, operstate 0
+oper_state: state 0, operstate 0
+mm-next-timer_null
+[bk]tx_txdesc_flush
+me_set_ps_disable:840 0 0 0 518373 999756
+------beacon_int_set:100 TU
+set_active param 0
+[msg]APM_STOP_CFM
+update_ongoing_1_bcn_update
+mm-next-timer_null
+hal_machw_enter_monitor_mode                                                                       
+[01-01 18:12:17 TUYA Err][uf_flash_file_app.c:411] uf_get_size err,filepath:3,ret:13               
+[01-01 18:12:17 TUYA Err][uf_flash_file_app.c:411] uf_get_size err,filepath:5,ret:13               
+[01-01 18:12:17 TUYA Err][uf_flash_file_app.c:411] uf_get_size err,filepath:4,ret:13               
+[01-01 18:12:17 TUYA Err][uf_flash_file_app.c:411] uf_get_size err,filepath:6,ret:13               
+[01-01 18:12:17 TUYA Err][uf_flash_file_app.c:411] uf_get_size err,filepath:7,ret:13
+[01-01 18:12:17 TUYA Err][uf_flash_file_app.c:411] uf_get_size err,filepath:8,ret:13
+[01-01 18:12:17 TUYA Err][uf_flash_file_app.c:411] uf_get_size err,filepath:9,ret:13
+[01-01 18:12:17 TUYA Notice][light_system.c:889] start ez config auto blink
+[01-01 18:12:17 TUYA Err][light_control.c:114] light control don't initlize, can't active!
+[01-01 18:12:17 TUYA Err][light_system.c:892] start auto blink timer error!
+!!!!!!!!!!tuya_bt_reset_adv
+[01-01 18:12:17 TUYA Notice][tuya_ble_api.c:398] ble adv && resp changed
+gapm_cmp_evt_handler operation = 0x10, status = 0x0 
+do td cur_t:283--last:idx:14,t:275 -- new:idx:15,t:287 
+--0xc:08, shift_b:0, shift_g:0, X:1
+mm_reset MM_GOING_TO_IDLE->MM_IDLE
+

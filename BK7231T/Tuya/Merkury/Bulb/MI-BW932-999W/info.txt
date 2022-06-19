@@ -1,0 +1,8 @@
+Manufacturer:	Merkury Innovations
+Model:		MI-BW932-999W
+Device:		EBE-QPW69-B LED Lamp
+FCC ID:		2AJ3WEBEQPW69
+Chipset: 	WB2L (BK7231T)
+Firmware:	oem_bk7231s_light_ty_oldDp
+Version:	1.0.10
+Firmware Date:	Jun 19 2020 03:11:37

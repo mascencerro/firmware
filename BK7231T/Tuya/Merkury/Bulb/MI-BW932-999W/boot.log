@@ -1,0 +1,115 @@
+V:BK7231S_1.0.5
+CPSR:000000D3
+R0:371DDD57
+R1:53C6CADE
+R2:862FADF9
+R3:DFEE74FF
+R4:F9CDBCD7
+R13:F7BBFFFF
+R14(LR):5DC9DAAC
+ST:0B8530E2
+J 0x10000
+prvHeapInit-start addr:0x41f0b0, size:134992
+[01-01 18:12:15 TUYA Debug][uni_thread.c:215] Thread:sys_timer Exec Start. Set to Running Status
+[01-01 18:12:15 TUYA Err][online_log_serv.c:280] log stats ufread fail.
+[01-01 18:12:15 TUYA Debug][online_log_serv.c:540] log serv init success
+[01-01 18:12:15 TUYA Notice][light_system.c:1530] go to pre device!
+bk_rst:0 tuya_rst:0[01-01 18:12:15 TUYA Notice][light_system.c:1541] goto first bright up!
+bk_rst:0 tuya_rst:00xcb 0x4e 0x3e 0xa4 0x0 0x30 0x9d 0xab 0x65 0x6d 0x8d 0xbf 0xe4 0xb9 0x3f 0x35 
+[01-01 18:12:15 TUYA Notice][tuya_main.c:203] **********[oem_bk7231s_light_ty_oldDp] [1.0.10] compiled at Jun 19 2020 03:11:37**********
+[rx_iq]rx_amp_err_rd: 0x01b
+[rx_iq]rx_phase_err_rd: 0xffffffff
+[rx_iq]rx_ty2_rd: 0x000
+*********** finally result **********
+gbias_after_cal: 0x16
+gav_tssi: 0x1c
+gtx_q_dc_comp:0x203
+gtx_i_dc_comp:0x20c
+gtx_i_gain_comp:1023
+gtx_q_gain_comp:1023
+gtx_phase_comp:501
+gtx_phase_ty2:512
+gtx_ifilter_corner over: 0x12
+gtx_qfilter_corner over: 0x12
+gtx_dcorMod:0x8, gtx_dcorPA:0xa
+gtx_pre_gain:0x0
+g_rx_dc_gain_tab 0 over: 0x80808080
+g_rx_dc_gain_tab 1 over: 0x80808080
+g_rx_dc_gain_tab 2 over: 0x84828480
+g_rx_dc_gain_tab 3 over: 0x8c848c84
+g_rx_dc_gain_tab 4 over: 0x8c868c86
+g_rx_dc_gain_tab 5 over: 0x8b868c86
+g_rx_dc_gain_tab 6 over: 0x8c858c85
+g_rx_dc_gain_tab 7 over: 0x8c868c85
+grx_amp_err_wr:0x1f2
+grx_phase_err_wr:0x000
+**************************************
+temp in flash is:246
+lpf_i & q in flash is:18, 18
+xtal in flash is:13
+-----pwr_gain:12, g_idx:12, shift_b:0, shift_g:0
+                                                -----[pwr_gain]12
+                                                                 Initializing TCP/IP stack
+[01-01 18:12:16 TUYA Notice][tuya_main.c:229] mf_init succ
+[01-01 18:12:16 TUYA Notice][tuya_ble_api.c:292] ble sdk inited
+device id key : 16
+d4 1d 8c d9 8f 00 b2 04 e9 80 09 98 ec f8 42 7e 
+!!!!!!!!!!tuya_bt_port_init
+[01-01 18:12:16 TUYA Notice][tuya_ble_api.c:328] ble sdk re_inited
+[01-01 18:12:16 TUYA Notice][tuya_bt_sdk.c:319] ty bt sdk init success finish
+[01-01 18:12:16 TUYA Notice][light_system.c:1589] < TUYA IOT SDK V:2.0.0 BS:30.06_PT:2.2_LAN:3.3_CAD:1.0.2_CD:1.0.0 >
+< tuya_iot_lib BUILD AT:2018_12_05_17_03_30 BY tuya_iot_team AT 8710_2M >
+IOT DEFS < WIFI_GW:1 DEBUG:1 KV_FILE:0 SHUTDOWN_MODE:0 LITTL[01-01 18:12:16 TUYA Notice][light_system.c:1590] oem_bk7231s_light_ty_oldDp:1.0.10
+[01-01 18:12:16 TUYA Notice][device_config_load.c:319] device config data already load! Don't load again!!
+[01-01 18:12:16 TUYA Notice][light_set_color.c:94] Drive init already init ok
+[01-01 18:12:16 TUYA Notice][tuya_main.c:128] current product ssid name:tuya_mdev_test2
+ht in scan
+scan_start_req_handler
+gapm_cmp_evt_handler operation = 0x1, status = 0x0 
+gapm_cmp_evt_handler operation = 0x3, status = 0x0 
+STACK INIT OK
+ble_env->start_hdl = 0x7gapm_cmp_evt_handler operation = 0x1b, status = 0x0 
+CREATE DB SUCCESS
+[01-01 18:12:16 TUYA Notice][tuya_ble_api.c:256] rev ble event 3
+device id key : 16
+d4 1d 8c d9 8f 00 b2 04 e9 80 09 98 ec f8 42 7e 
+!!!!!!!!!!tuya_bt_reset_adv
+[01-01 18:12:16 TUYA Notice][tuya_ble_api.c:120] ble adv && resp changed
+do td cur_t:259--last:idx:13,t:246 -- new:idx:14,t:258 
+--0xc:08, shift_b:0, shift_g:0, X:2
+                                   [01-01 18:12:18 TUYA Notice][gw_intf.c:3166] serial_no:1869d8803941
+[01-01 18:12:18 TUYA Notice][gw_intf.c:3197] gw_cntl.gw_wsm.stat:0
+[01-01 18:12:18 TUYA Notice][gw_intf.c:3200] gw_cntl.gw_wsm.nc_tp:1
+[01-01 18:12:18 TUYA Notice][gw_intf.c:3201] gw_cntl.gw_wsm.md:0
+[01-01 18:12:18 TUYA Notice][gw_intf.c:3238] gw_cntl.gw_if.abi:0 input:0
+[01-01 18:12:18 TUYA Notice][gw_intf.c:3239] gw_cntl.gw_if.product_key:keydpkw438xwpdtm, input:keydpkw438xwpdtm
+[01-01 18:12:18 TUYA Notice][gw_intf.c:3240] gw_cntl.gw_if.tp:0, input:0
+[01-01 18:12:18 TUYA Notice][gw_intf.c:3242] gw_cntl.gw_if.firmware_key:keydpkw438xwpdtm, input:keydpkw438xwpdtm
+[01-01 18:12:18 TUYA Notice][tuya_bt_sdk.c:337] ty bt update product:keydpkw438xwpdtm 1
+[01-01 18:12:18 TUYA Notice][tuya_ble_api.c:137] update product_id type:1 keydpkw438xwpdtm 3cd6f881fd4e0073 26nqI4GhRiCEAkK5R7JLPggHnZNho5X1
+[01-01 18:12:18 TUYA Notice][light_system.c:1500] frame init ok!
+ht in scan
+scan_start_req_handler
+[01-01 18:12:19 TUYA Err][uf_flash_file_app.c:339] uf_get_size err,filepath:3,ret:13
+[01-01 18:12:19 TUYA Err][uf_flash_file_app.c:339] uf_get_size err,filepath:5,ret:13
+[01-01 18:12:19 TUYA Err][uf_flash_file_app.c:339] uf_get_size err,filepath:4,ret:13
+[01-01 18:12:19 TUYA Notice][light_system.c:606] start ez config auto blink
+me_set_ps_disable:840 0 0 0 461189 950889
+------beacon_int_set:100 TU
+set_active param 0
+                  [msg]APM_STOP_CFM
+                                   update_ongoing_1_bcn_update
+mm-next-timer_null
+hal_machw_enter_monitor_mode
+[01-01 18:12:21 TUYA Notice][tuya_bt_sdk.c:345] ty bt start network cfg..
+[01-01 18:12:21 TUYA Notice][tuya_ble_api.c:161] update bound state 0
+device id key : 16
+b6 07 ae 22 70 80 01 b0 cc e1 a8 f3 67 53 5e 38 
+!!!!!!!!!!tuya_bt_reset_adv
+[01-01 18:12:21 TUYA Notice][tuya_ble_api.c:120] ble adv && resp changed
+!!!!!!!!!!tuya_before_netcfg_cb
+appm start advertising
+do td cur_t:266--last:idx:14,t:258 -- new:idx:15,t:270 
+--0xc:08, shift_b:0, shift_g:0, X:1
+                                   do td cur_t:278--last:idx:15,t:270 -- new:idx:16,t:282 
+--0xc:08, shift_b:0, shift_g:0, X:0
