@@ -2,7 +2,7 @@ Manufacturer:	Merkury Innovations
 Model:		MI-WW218-199WW
 Device:		Smart Wi-Fi Plug
 FCC ID:		2AJ3WEBECZW03
-Chipset: 	WB2L (BK7231T)
+Chipset: 	WB2S (BK7231T)
 
 Firmware:	oem_bk7231s_rnd_switch
 Version:	1.0.8
